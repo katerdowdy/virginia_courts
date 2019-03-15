@@ -77,12 +77,12 @@ Because there was no significant difference in test scores for the models and th
 - False Positives: 59458
 - False Negatives: 26102
 - True Positives: 117951
-- Accuracy: 0.6478621081354718
-- Misclassification Rate: 0.35213789186452815
-- Sensitivity/Recall (True Positive Rate): 0.8188028017465794
-- Specificity (True Negative Rate): 0.39892842701172665
-- False Positive Rate: 0.41275086252976334
-- Precision: 0.6648535305424189
+- Accuracy: 0.65
+- Misclassification Rate: 0.35
+- Sensitivity/Recall (True Positive Rate): 0.82
+- Specificity (True Negative Rate): 0.40
+- False Positive Rate: 0.41
+- Precision: 0.66
 
 For the purposes of making recommendations to people who are facing charges, there are two main issues with these models I would need to change. First, demographic information shouldn't be a predictor of outcome, so race and gender shouldn't be used as features. Second, I would want to adjust the threshold of predicting 'positive' vs. 'negative' (default is 50%) to minimize the number of false positives and provide a more conservative estimate of outcomes.
 
