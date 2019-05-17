@@ -15,7 +15,7 @@ The information imbalance between the State and citizens going through the crimi
 The repo contains these main files:
 
 - [A. Webscraping Notebook](https://github.com/katerdowdy/virginia_courts/blob/master/A_WebScraping.ipynb)
-- [B. Cleaning / EDA Notebook](https://github.com/katerdowdy/virginia_courts/blob/master/B_Cleaning_EDA.ipynb)
+- [B. Cleaning / EDA Notebook](https://github.com/katerdowdy/virginia_courts/blob/master/B_Cleaning_EDA_pub.ipynb)
 - [C. Modeling Notebook](https://github.com/katerdowdy/virginia_courts/blob/master/C_Modeling.ipynb)
 - [Demo](https://github.com/katerdowdy/virginia_courts/blob/master/Demo.ipynb)
 
